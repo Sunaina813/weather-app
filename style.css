@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+#table-section {
+  padding: 20px;
+}
+
+
+#first-section{
+  display: flex;
+   flex-direction: row;
+}
+
+img{
+  margin: 30px;
+}
+nav{
+  padding: 500px;
+}

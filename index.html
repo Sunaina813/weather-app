@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Report</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <main>
+      <!---Navbar start-->
+      <nav class="navbar navbar-light bg-light justify-content-between">
+        <a class="navbar-brand">Today's Weather</a>
+        <form class="form-inline">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="City Name"
+            aria-label="Search"
+            id="search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </nav>
+      <!--Navbar end-->
+
+      <!---Card Container start -->
+      <div id="first-section">
+        <div class="card" style="width: 18rem; margin: 30px">
+          <div class="card-body">
+            <h5 class="card-title">City Name</h5>
+            <p class="card-text" style="font-size: 55px; font-weight: 300">
+              21*C
+            </p>
+            <a href="#" class="btn btn-primary">more</a>
+          </div>
+        </div>
+        <div>
+          <img src="cloud-with-sun.jpg" />
+        </div>
+      </div>
+
+      <!----Card container ending here  -->
+
+      <!--Table of popular cities start-->
+
+      <section id="table-section">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">City</th>
+              <th scope="col">Temp</th>
+              <th scope="col">Handle</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Larry</td>
+              <td>the Bird</td>
+              <td>@twitter</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <!--table end-->
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
